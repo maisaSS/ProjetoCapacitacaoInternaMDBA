@@ -10,5 +10,5 @@ app.use('/cliente', express.static('client'))
 
 
 app.listen(8083, function(){
-    console.log("Servidor rodando na URL http://localhost:8083")
+    console.log("Servidor rodando na URL http://localhost:8083, acesse a URL http://localhost:8083/cliente para ter acesso ao projeto")
 })
