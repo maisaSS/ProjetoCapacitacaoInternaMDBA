@@ -2,7 +2,7 @@
   body{
       padding: 0;
       margin: 0;
-      background-color: rgb(80, 12, 80);
+      background-color: rgba(82, 71, 188, 1);
       width: 100%;
       align-items: center;
   }
@@ -31,24 +31,26 @@
   .menu_opcao{
       padding-top: 20px;
       font-family: Arial, Helvetica, sans-serif;
-      font-weight: bold;
+      padding-block-start: 20px;
   }
   .Nossa_História{
-      background-color: rgb(137, 100, 172);
+      background-color: #3D3498;
       margin: 0;
       padding:0;
       margin-top: 100px;
       justify-content: center;
       align-content: center;
       text-align: center;
-      border-radius: 10px;
+      border-radius: 30px;
       margin-inline-end: 11%;
       margin-inline-start: 11%;
   }
   .NossaHistoria_imagem_retangular{
-      width: 70px;
+      width: 130px;
       height: 70px;
       padding-block-end: 10px;
+      margin-right: 15px;
+      margin-left:15px ;
   }
   .NossaHistoria_imgredonda{
     display: none;
@@ -86,7 +88,7 @@
     width: 100px;
     height: 30px;
     padding: 0px 0px 0px 0px;
-    background-color: rgb(192, 192, 20);
+    background-color: rgb(255, 255, 82);
     color: #4a1879;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 25px;
@@ -101,8 +103,8 @@
       font-family: arial;
   }
   .Participe_imagem_retangular{
-      height: 100px;
-      width: 100%;
+      height: 200px;
+      width: 90%;
       border-radius: 20px;
   }
   .Paragrafo_Particite{
@@ -120,18 +122,20 @@
       font-size: 8.8pt;
   }
   .div_btn_Numero{
-    background-color:  rgb(192, 192, 20);
-    border-radius: 30px;
+    background-color:  rgb(255, 255, 47);
+    border-radius: 70px;
     text-align: center;
     margin: 4px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     box-shadow: black 2px 2px 2px;
+    padding-block-start: 20px;
   }
   .btn_Numero{
     background-color: #4a1879;
     border-radius: 10px;
     color: white;
+    border:0px
   }
   .p_Numero{
     width: 100px;
@@ -164,7 +168,7 @@
       padding-left: 20px;
       padding-top: 10px;
       padding-right: 10px;
-      background-color: rebeccapurple;
+      background-color: rgba(82, 71, 188, 1);
       width: 100%;
   }
   .p_Footer_nossasRedes{
@@ -191,5 +195,4 @@
     width: 100px;
     height: 100px;
   }
-
 }
